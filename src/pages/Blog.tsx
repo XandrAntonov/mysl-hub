@@ -232,9 +232,21 @@ const Blog = () => {
                   <CardDescription className="text-base mb-6 flex-1">
                     {article.excerpt}
                   </CardDescription>
+                  
+                  {/* Full article content - initially hidden, can be expanded */}
+                  <details className="mb-4">
+                    <summary className="cursor-pointer text-primary hover:text-primary/80 font-medium mb-3">
+                      Zobrazit celý článek
+                    </summary>
+                    <div 
+                      className="prose prose-sm max-w-none text-muted-foreground"
+                      dangerouslySetInnerHTML={{ __html: article.content }}
+                    />
+                  </details>
+                  
                   <Button asChild variant="ghost" className="self-start p-0 h-auto text-primary hover:text-primary/80">
                     <Link to={`/blog/${article.id}`}>
-                      Číst celý článek <ArrowRight className="ml-1 w-4 h-4" />
+                      Číst v plné verzi <ArrowRight className="ml-1 w-4 h-4" />
                     </Link>
                   </Button>
                 </CardContent>

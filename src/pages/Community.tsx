@@ -285,7 +285,7 @@ const Community = () => {
                           className={`w-full ${plan.popular ? 'hero-gradient text-white' : ''}`}
                           size="lg"
                         >
-                          {plan.popular ? 'Začít hned' : 'Vybrat plán'}
+                          Začít hned
                           <ArrowRight className="ml-2 w-5 h-5" />
                         </Button>
                       </form>

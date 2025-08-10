@@ -198,12 +198,12 @@ const Home = () => {
                 required
               />
               <Button 
-                type="submit"
+                asChild
                 variant="secondary"
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 font-semibold"
               >
-                Přihlásit se
+                <Link to="/komunita">Přihlásit se</Link>
               </Button>
             </form>
           </div>

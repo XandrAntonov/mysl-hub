@@ -36,14 +36,6 @@ const BlogPost = () => {
           <li><strong>Real-time bidding optimalizace:</strong> Algoritmus pro optimalizaci nabídek v reklamních aukcích</li>
         </ul>
         
-        <h2>Proces implementace</h2>
-        <p>Implementace probíhala ve třech fázích během 4 měsíců:</p>
-        <ol>
-          <li><strong>Fáze 1 (měsíc 1):</strong> Integrace datových zdrojů a nastavení základní analytiky</li>
-          <li><strong>Fáze 2 (měsíce 2-3):</strong> Implementace prediktivních modelů a automatizace</li>
-          <li><strong>Fáze 3 (měsíc 4):</strong> Optimalizace a ladění systémů</li>
-        </ol>
-        
         <h2>Dosažené výsledky</h2>
         <p>Po šesti měsících používání AI nástrojů agentura zaznamenala následující zlepšení:</p>
         <ul>
@@ -54,31 +46,79 @@ const BlogPost = () => {
           <li><strong>Nové zakázky:</strong> Zvýšení počtu nových klientů o 40% díky lepším referencím</li>
         </ul>
         
-        <h2>Klíčové poznatky</h2>
-        <p>Během implementace agentura získala několik cenných poznatků:</p>
+        <h2>Závěr</h2>
+        <p>Tato případová studie jasně demonstruje, že správná implementace AI může dramaticky zlepšit výkonnost marketingových aktivit i v českém prostředí. Klíčem k úspěchu je postupný přístup, kvalitní data a investice do školení týmu.</p>
+      `
+    },
+    'ai-v-pravu-studie': {
+      title: 'Umělá inteligence v právu: případová studie advokátní kanceláře',
+      category: 'Právní služby',
+      date: '12. prosince 2024',
+      readTime: '7 min čtení',
+      content: `
+        <h2>Představení advokátní kanceláře</h2>
+        <p>Advokátní kancelář "Právní Partners" se specializuje na korporátní právo a má více než 15 let zkušeností na českém trhu. S rostoucím objemem dokumentů a potřebou rychlejšího zpracování se rozhodla implementovat AI nástroje.</p>
+        
+        <h2>Hlavní výzvy</h2>
         <ul>
-          <li>Kvalita dat je klíčová - investice do čištění a strukturování dat se vyplatila</li>
-          <li>Postupná implementace je lepší než velký bang přístup</li>
-          <li>Školení týmu je nezbytné pro úspěšné přijetí nových technologií</li>
-          <li>AI nástroje nevyřeší všechno - lidská kreativita a strategické myšlení zůstávají důležité</li>
+          <li><strong>Analýza smluv:</strong> Ruční kontrola každé smlouvy trvala průměrně 3-4 hodiny</li>
+          <li><strong>Vyhledávání precedentů:</strong> Hledání relevantních právních rozhodnutí bylo časově náročné</li>
+          <li><strong>Příprava dokumentů:</strong> Tvorba standardních dokumentů zabírala zbytečně mnoho času</li>
+          <li><strong>Due diligence:</strong> Kontrola firemních dokumentů při akvizicích trvala týdny</li>
         </ul>
         
-        <h2>Budoucí plány</h2>
-        <p>Na základě úspěchu prvních implementací plánuje agentura další rozšíření AI nástrojů:</p>
+        <h2>Implementované AI řešení</h2>
         <ul>
-          <li>Prediktivní analýza životní hodnoty zákazníka</li>
-          <li>AI chatboty pro první kontakt s klienty</li>
-          <li>Automatizované reportování a dashboardy</li>
-          <li>Personalizace obsahu na webových stránkách klientů</li>
+          <li><strong>AI asistent pro analýzu smluv:</strong> Automatické vyhledávání problematických klauzulí</li>
+          <li><strong>Právní databáze s AI:</strong> Inteligentní vyhledávání v judikaturách</li>
+          <li><strong>Automatizace dokumentů:</strong> AI generování standardních právních dokumentů</li>
+          <li><strong>Prediktivní analytika:</strong> Odhad pravděpodobnosti úspěchu v soudních sporech</li>
+        </ul>
+        
+        <h2>Dosažené výsledky</h2>
+        <ul>
+          <li><strong>Rychlost analýzy:</strong> Snížení času na analýzu smluv o 70%</li>
+          <li><strong>Přesnost:</strong> 95% přesnost při identifikaci rizikových klauzulí</li>
+          <li><strong>Efektivita:</strong> Zvýšení kapacity kanceláře o 40% bez náboru nových právníků</li>
+          <li><strong>Spokojenost klientů:</strong> Zrychlení odpovědí na právní dotazy o 60%</li>
         </ul>
         
         <h2>Závěr</h2>
-        <p>Tato případová studie jasně demonstruje, že správná implementace AI může dramaticky zlepšit výkonnost marketingových aktivit i v českém prostředí. Klíčem k úspěchu je postupný přístup, kvalitní data a investice do školení týmu.</p>
+        <p>AI se ukázala jako mocný nástroj pro zvýšení efektivity právních služeb, aniž by nahradila lidskou expertízu. Právníci nyní mohou věnovat více času strategickému poradenství a složitějším případům.</p>
+      `
+    },
+    'ai-hr-automatizace': {
+      title: 'AI v HR: automatizace náboru a snížení chyb',
+      category: 'Human Resources',
+      date: '10. prosince 2024',
+      readTime: '6 min čtení',
+      content: `
+        <h2>Situace v HR před AI</h2>
+        <p>Personální agentura "TalentSearch Praha" zpracovávala měsíčně přes 500 životopisů pro různé pozice. Manuální screening zabíral většinu času HR týmu a vedl k přehlédnutí kvalitních kandidátů.</p>
         
-        <p>Pokud zvažujete implementaci AI ve své firmě, doporučujeme začít s jedním konkrétním problémem a postupně rozšiřovat použití na další oblasti.</p>
+        <h2>Implementované AI nástroje</h2>
+        <ul>
+          <li><strong>AI screening životopisů:</strong> Automatické hodnocení kandidátů podle kritérií</li>
+          <li><strong>Prediktivní analýza:</strong> Odhad úspěšnosti kandidáta na pozici</li>
+          <li><strong>Chatbot pro uchazeče:</strong> Automatické odpovědi na časté otázky</li>
+          <li><strong>Analýza video rozhovorů:</strong> AI hodnocení komunikačních dovedností</li>
+        </ul>
+        
+        <h2>Klíčové výsledky</h2>
+        <ul>
+          <li><strong>Úspora času:</strong> 80% snížení času na první screening</li>
+          <li><strong>Kvalita náboru:</strong> 45% zvýšení úspěšnosti umístění kandidátů</li>
+          <li><strong>Snížení bias:</strong> Objektivnější hodnocení bez předsudků</li>
+          <li><strong>Kandidátská zkušenost:</strong> Rychlejší zpětná vazba a lepší komunikace</li>
+        </ul>
+        
+        <h2>Challenges a learnings</h2>
+        <p>Implementace AI v HR vyžaduje pečlivé nastavení kritérií a pravidelné kontroly, aby nedošlo k diskriminaci. Je důležité zachovat lidský prvek v procesu rozhodování.</p>
+        
+        <h2>Budoucí směřování</h2>
+        <p>Plánujeme rozšíření AI na predikci fluktuace zaměstnanců a personalizaci benefit programů podle potřeb jednotlivých zaměstnanců.</p>
       `
     }
-    // Add other articles here...
   };
 
   const article = articles[slug || ''] || {
